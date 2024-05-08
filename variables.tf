@@ -1,5 +1,6 @@
 variable "vpc_name" {
   type        = string
+  default     = "vpc_plo_iac_clc11"
   description = "Nome da sua VPC"
 }
 
