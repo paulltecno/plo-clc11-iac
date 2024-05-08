@@ -1,6 +1,6 @@
 variable "vpc_name" {
   type        = string
-  default     = "vpc_plo_iac_clc11"
+  default     = "aws_vpc.minha_vpc"
   description = "Nome da sua VPC"
 }
 
